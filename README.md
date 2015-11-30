@@ -23,7 +23,9 @@ To add a new page of documentation, use the following command in terminal from t
     cd uxdocs
     ruby bin/jekyll-page "My First UXDocs Page" ref
     
-In the above example, "ref" is the category for this new page there are several available categories listed in `/config.yml` including `ref`, `memes`, `haiku` and `bad jokes`.
+In the above example, "ref" is the category for this new page there are several available categories listed in `/_config.yml` including `ref`, `memes`, `haiku` and `bad jokes`.
+
+New categories can be added by adding additional items to the array of categories in `/_config.yml`.
 
 A new page will be created and pre-populated with some appropriate front-matter, but you may also wish to add an order number to specify in which order this page should be displayed within its category.
 

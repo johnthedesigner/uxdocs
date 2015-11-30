@@ -1,3 +1,11 @@
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/bruth/jekyll-docs-template/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+#How to Update UXDocs
 
-Read the docs: http://bruth.github.io/jekyll-docs-template
+Clone it!
+
+  git clone https://github.com/johnthedesigner/uxdocs.git
+
+##Creating a new page
+
+To add a new page of documentation, use the following command in terminal from the root of this repo.
+
+  ruby bin/jekyll-page "My First UXDocs Page" ref

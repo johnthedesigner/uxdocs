@@ -1,8 +1,20 @@
 #How to Update UXDocs
 
-Clone it!
+##About UXDocs
+
+This site is a Github-hosted, Jekyll-generated static website at the following address:
+
+    http://johnthedesigner.github.io/uxdocs/
+
+##Clone it!
 
     git clone https://github.com/johnthedesigner/uxdocs.git
+    
+##Making Updates
+
+For now, updates to our UX documentation could either be made in a new branch or directly in the `master` branch. In order to deploy your updates, you must make a pull request into the `gh-pages` branch. Once the pull request has been merged the changes will become immediately available on the UXDocs website:
+
+    http://johnthedesigner.github.io/uxdocs/
 
 ##Creating a new page
 
